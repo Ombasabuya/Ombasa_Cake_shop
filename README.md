@@ -7,8 +7,16 @@ Ombasa_Cake_shop is an online shop for customers to customize their cakes
 Its developed using HTML, CSS , JavaScript , Bootstrap, External APIs and JSON  Technologies 
 
 # link GitHub Pages
-
 // to be shared when the project is completed 
+ # project setup instructions
+1.Use vscode to clone this repository
+2.open your teminal and run json server --watch db.json 
+3.Open with live server 
+4.Enjoy 
+5.
+6.
+
+
 # copyright and license information
 
 Copyright (c) 2022 Ombasa_Cake_shop Content License 
