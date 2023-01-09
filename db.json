@@ -1,9 +1,22 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "articles": [
+    {
+      "id": 1,
+      "title": "Sample  Coffee",
+      "content": "This is an example.",
+      "image": "https://coffee.alexflipnote.dev/Xulokmxx3Lw_coffee.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Second Cakes",
+      "content": "This is also an example.",
+      "image": "https://coffee.alexflipnote.dev/Xulokmxx3Lw_coffee.jpg"
+    },
+    {
+      "title": "qwer",
+      "content": "qwert",
+      "image": "https://coffee.alexflipnote.dev/Xulokmxx3Lw_coffee.jpg",
+      "id": 3
+    }
+  ]
+}

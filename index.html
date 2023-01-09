@@ -1,93 +1,83 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Welcome to Abuya's Cake Shop!</title>
-    <meta name="author" content="Ombasa's Cake Shop">
-    <meta name="description" content="Store front for Abuya's Cake Shop">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/logo.png">
-    <link rel="stylesheet" href="styles.css">
-
-    <style>
-
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Welcome to Abuya's Cake Shop!</title>
 </head>
 
 <body>
     <header id="mainheader">
         <nav>
-            <ul>
-                <li><img src="images/logo.png" height="55" width="50" /></li>
+            
+                
                 <li><a href="#index.html">Home</a></li>
-                <li><a href="#cakeoverview.html">All pies</a></li>
-                <li><a href="#about.html">About Us</a></li>
-                <li><a href="#contact.html ">Contact Us </a></li>
-            </ul>
+
+           
         </nav>
     </header>
 
-    <div style="width:1000px;margin-left: auto;margin-right: auto;">
-         <!--<aside id="leftmenu">
-            <a href="index.html"><img src="images/sliced-cakes.jpg" height="200" width="250" /></a>
-            <header>
-                <h4 style="text-align: center;">Browse our Cakes</h4>
-           </header>
-            <ul>
-                <li><a href="cakeoverview.html">All pies</a></li>
-                <li><a href="cheesecakes.html">Cheese cakes</a></li>
-                <li><a href="fruitpies.html">Fruit pies</a></li>
-                <li><a href="seasonalpies.html">Seasonal pies</a></li>
-                <li><a href="#promos">Promotions</a></li>
-            </ul>
-            <input type="search" class="searchbox" placeholder="Search our store" />
-
-        </aside>
-        -->
-        <main id="main">
-            <article>
-
-                <header>
-                    <h1 style="font-size:35px;color:#a593c2">Crazy for cakes ? <br> Welcome to Ombasa's Pie Shop!!</h1>
-                </header>
-                <figure>
-                    <img src="images/cake.jpg" width="600" alt="Abuya in his cake shop" />
-                    <figcaption>Fresh out of the oven </figcaption>
-                </figure>
-                <h2>Our Cakes</h2>
-                <p>
-                    Because cake comes in all sizes, shapes, and flavors, it’s perfect for any kind of event or
-                    occasion. Time and time again,
-                    it’s the star attraction. It's to no surprise that it gets a lot of flashy snapshots!
-                </p>
-                <p>
-                    Ombasa is famous for using only the best ingredients. This way, we can make sure
-                    that our pies are absolutely the best.
-                </p>
-
-                <p>Download our full <a href="downloads/Price list.zip">price list</a></p>
-            </article>
-
-            <section id="promos">
-                <h3 style="font-family:verdana;">&nbsp;Our weekly promotions</h3>
-                <h4>Cheese cake</h4>
-                Ksh3500/= serves 2<br>
-                <img src="images/breakfast.jpg" width="500" alt="Cheese cake with strawberry" height="300" />
-            </section>
-
-
-        </main>
-        <footer>
-            <p>Our address is
-            <address>Ombasa's Pie Shop - Tom Mboya Street Nairobi-Kenya</address>
-            </p>
-            <small>&copy;2020 Ombasa's Pie Shop - All rights reserved</small>
-            <p>Contact us via <a href="mailto:ombasabuya@gmail.com">email</a></p>
-            <p><small><a href="https://www.abuya.com">Created by Abuya Ombasa </a></small></p>
-        </footer>
+    <h1>Cake Requests : </h1>
+    <form id="form-container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Cake Item Request : </label>
+            <input type="text" id="title" class="form-control" id="exampleFormControlInput1" placeholder="your title">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Cake Descriptions Details: </label>
+            <textarea id="content" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="basic-url" class="form-label">Cake image URL:</label>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <button type="submit" class="btn btn-success">Submit client request: </button>
+    </form>
+    <h1> Latest Requests : </h1>
+    <div class="card">
+        <div class="card-body"></div>
     </div>
+    <main id="main">
+        <article>
+
+
+            <h2>Our Cakes</h2>
+            <p>
+                Because cake comes in all sizes, shapes, and flavors, it’s perfect for any kind of event or
+                occasion. Time and time again,
+                it’s the star attraction. It's to no surprise that it gets a lot of flashy snapshots!
+            </p>
+            <p>
+                Ombasa is famous for using only the best ingredients. This way, we can make sure
+                that our pies are absolutely the best.
+            </p>
+
+        </article>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <footer>
+        <p>Our address is
+        <address>Ombasa's Pie Shop - Tom Mboya Street Nairobi-Kenya</address>
+        </p>
+        <small>&copy;2020 Ombasa's Pie Shop - All rights reserved</small>
+        <p>Contact us via <a href="mailto:ombasabuya@gmail.com">email</a></p>
+        <p><small><a href="https://www.abuya.com">Created by Abuya Ombasa </a></small></p>
+    </footer>
+
 
 </body>
 
