@@ -7,15 +7,15 @@ Ombasa_Cake_shop is an online shop for customers to customize their cakes
 Its developed using HTML, CSS , JavaScript , Bootstrap, External APIs and JSON  Technologies 
 
 # link GitHub Pages
-// to be shared when the project is completed 
+https://github.com/Ombasabuya/Ombasa_Cake_shop
  # project setup instructions
-1.Use vscode to clone this repository
-2.open your teminal and run json server --watch db.json 
-3.Open with live server 
-4.Enjoy 
-5.
-6.
-
+·	Use vscode to clone this repository
+·	cd to the repo in your local computer 
+·	open your terminal and run json server --watch db.json 
+·	Open with live server 
+·	Update json.db 
+·	The project has HTML Form field   to be filled 
+·	The project  uses a public API.
 
 # copyright and license information
 
